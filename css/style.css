@@ -3,7 +3,21 @@ body{
 
 }
 .service{
-	background-image: url(../images/bg.jpg);
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 700px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .about-content i{
 	font-size: 35px;
@@ -19,6 +33,21 @@ body{
 	background-position: center;
 	color: #ffffff;
 }
+.project{
+	background-color: dimgrey;
+}
+.project .card{
+	margin-top: 20px;
+	background-color: lightblue;
+}
+.resume{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+}
+.what-do{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+}
 .what-do img{
 	margin-top: -80px;
 }
@@ -32,9 +61,7 @@ body{
 	font-size: 30px;
 	color: #ffffff;
 }
-footer{
-	margin-bottom: 20px;
-}
+
 
 
 

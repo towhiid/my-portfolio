@@ -9,9 +9,12 @@
 	.what-do .do-img{
 		margin-top: 20px;
 	}
-	.pricing .card{
+	.resume-part{
 		width: 75%;
-		margin: 20px auto;
+	}
+	.project .card{
+		width: 75%;
+		margin: 10px auto;
 	}
 	.blog-content .card{
 		width: 75%;
@@ -19,10 +22,5 @@
 	}
 	.contact-content .contact-left{
 		margin-bottom: 20px;
-	}
-}
-@media screen and (max-width: 767px) {
-	.newsletter input{
-		margin-bottom: 10px;
 	}
 }
