@@ -44,7 +44,8 @@ body{
 	margin-top: 10px;
 }
 .resume{
-	margin-left: 20%;
+	
+	background-color: lightslategray;
 }
 .resume-part{
 	margin-left: 10%;
